@@ -19,7 +19,7 @@ class Grid
     ships = []
     5.times do
     ships <<  Ship.make_random_size
-end
+   end
   end
 end
 
@@ -27,7 +27,7 @@ class Ship
   
   def self.ship_data
     [{ name: 'battleship', length: 5 },
-     { name: 'courier', length: 3 },
+     { name: 'courier', length: 3 }
     ]
   end
   
